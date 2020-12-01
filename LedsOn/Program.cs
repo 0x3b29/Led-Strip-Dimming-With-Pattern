@@ -10,8 +10,8 @@ namespace LedsOn
     {
         static void Main(string[] args)
         {
-            int totalLeds = 10;
-            float ledsOnPercentage = 0.10f;
+            int totalLeds = 50;
+            float ledsOnPercentage = 0.25f;
             float perfectLedsOn = totalLeds * ledsOnPercentage; 
             float factorOn = totalLeds / perfectLedsOn;
 
